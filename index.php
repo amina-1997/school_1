@@ -16,15 +16,15 @@
     <link rel="stylesheet" href="style.css">
 
 <style>
- .navbar{
+ .first-nav{
         background: rgba(0, 0, 0, 0.5); 
 
 }
-.navbar:hover {
+.first-nav:hover {
     background: white;
 }
 
-.navbar:hover .nav-link {
+.first-nav:hover .nav-link {
     color: black !important; 
 }
 .nav-link :hover{
@@ -35,30 +35,41 @@
 p{
     text-align:justify;
 }
+.navbar-nav .nav-link {
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #f39c12;
+        transform: scale(1.1); 
+        text-decoration: underline; 
+    }
 
 </style>
+
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="image/gide School.png" alt="Glory School Logo" width="60px" class="rounded-circle"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon ms-5"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#services">Academics</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#courses">Achievements</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#contact">Find your school</a></li>
-                    <li class="nav-item"><a class="btn btn-danger fw-bold contact_button py-3 ms-2" href="#enroll">Contact us</a></li>
-                </ul>
-            </div>
+    <nav class="navbar first-nav navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="image/gide School.png" alt="Glory School Logo" width="60px" class="rounded-circle"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-dark"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#services">Academics</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#courses">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold text-light py-3" href="#contact">Find your school</a></li>
+                <li class="nav-item"><a class="btn btn-danger fw-bold contact_button py-3 ms-2" href="#enroll">Contact us</a></li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Carousel -->
+
+    <!-- Carousel slider -->
     <div id="schoolSlider" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#schoolSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -96,20 +107,20 @@ p{
         </div>
        
     </div>
-
-    <div class="row mt-5 ms-5">
+<!-----------para-1--------------->
+    <div class="container-fluid mt-5 row">
     <div class="col-sm-5 bg-dark mt-5">
-        <img src="image/p1.jpg" alt="" class="img-fluid" style="margin-top: -20px; padding-bottom: 20px; margin-left: 12px;">
+        <img src="image/p1.jpg" alt="" class="img-fluid ps-2" style="margin-top: -20px; padding-bottom: 20px; margin-left: 12px;">
     </div>
 
-    <div class="col-sm-6 mt-4 ms-5">
+    <div class="col-sm-5 mt-4 ms-5">
         <h2 class="text-danger">Top-Tier K-12 Schools</h2>
         <p>
             We are a network of top-ranked private schools across America, dedicated to academic excellence. Our internationally acclaimed curriculum, combined with the expertise of our Subject Expert Teachers, ignites the intellectual curiosity of our students and unlocks their full potential.
         </p>
     </div>
 
-    <div class="row bg-dark mt-5 pb-5">
+    <div class="row bg-dark mt-5 pb-5 m-auto">
         <h3 class="text-center text-light py-3"><b>Outstanding Student Achievements</b></h3>
        
         <div class="col-sm-4">
@@ -149,17 +160,70 @@ p{
         </div>
     </div>
 </div>
+<!-----------para-2--------------->
 
 
-<div class="bg-color container-fluid">
-    <h1>background</h1>
-<div class="bg-color2">
-    <h1>background2</h1>
+<div class="bg-color container-fluid pt-5 pb-3">
+  <h1 class="text-center"><b class="text-danger">Explore Our Programs</b></h1><br>
+  
+    <div class="row">
+        <!-- Program 1 -->
+        <div class="col-sm-4">
+            <div class="position-relative">
+                <img src="image/p2.jpg" alt="Primary Program" class="img-fluid img1">
+                <div class="phide">
+                    <h5><b>Primary Program</b></h5>
+                    <div class="bg-danger"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda esse explicabo itaque perspiciatis sunt quisquam, magnam atque, recusandae quasi qui rerum!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Program 2 -->
+        <div class="col-sm-4">
+            <div class="position-relative">
+                <img src="image/p3.jpg" alt="Middle School Program" class="img-fluid img1">
+                <div class="phide">
+                    <h5><b>Middle School Program</b></h5>
+                    <div class="bg-danger"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda esse explicabo itaque perspiciatis sunt quisquam, magnam atque, recusandae quasi qui rerum!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Program 3 -->
+        <div class="col-sm-4">
+            <div class="position-relative">
+                <img src="image/p4.jpg" alt="High School Program" class="img-fluid img1">
+                <div class="phide">
+                    <h5><b>High School Program</b></h5>
+                    <div class="bg-danger"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda esse explicabo itaque perspiciatis sunt quisquam, magnam atque, recusandae quasi qui rerum!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+    </div>
+    </div>
+    <div class="bg-color2">
 </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
+
+<!---------------para---3---------------->
+
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="image/p5.jpg" alt="" width="100%">
+        </div>
+        <div class="col-sm-9 bg-color text-center" style="margin-left:-10px;"><br>
+            <h5><b>Interested in learning more about Glory Schools?</b></h5>
+            <p class="text-center">Complete our inquiry form and we’ll be in touch.</p>
+            <a class="btn btn-danger fw-bold contact_button px-5 py-3" style="font-size:20px;" href="#enroll">Contact us</a>
+        </div>
+     </div>
+</div>
+
+<?php
+include('footer.php');
+?>
