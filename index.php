@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glory School</title>
     <link rel="icon" type="image/x-icon" href="image/gide School.png">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
           integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" />
@@ -18,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
 
 <style>
-    .navbar{
+ .navbar{
         background: rgba(0, 0, 0, 0.5); 
 
 }
@@ -34,7 +32,9 @@
 
 
 }
-
+p{
+    text-align:justify;
+}
 
 </style>
 </head>
@@ -96,6 +96,67 @@
         </div>
        
     </div>
+
+    <div class="row mt-5 ms-5">
+    <div class="col-sm-5 bg-dark mt-5">
+        <img src="image/p1.jpg" alt="" class="img-fluid" style="margin-top: -20px; padding-bottom: 20px; margin-left: 12px;">
+    </div>
+
+    <div class="col-sm-6 mt-4 ms-5">
+        <h2 class="text-danger">Top-Tier K-12 Schools</h2>
+        <p>
+            We are a network of top-ranked private schools across America, dedicated to academic excellence. Our internationally acclaimed curriculum, combined with the expertise of our Subject Expert Teachers, ignites the intellectual curiosity of our students and unlocks their full potential.
+        </p>
+    </div>
+
+    <div class="row bg-dark mt-5 pb-5">
+        <h3 class="text-center text-light py-3"><b>Outstanding Student Achievements</b></h3>
+       
+        <div class="col-sm-4">
+            <div class="p02 size text-center" style="background:#c23616;">
+           <br><div class="border bg-light m-auto" style="width:80%; height:3px;"></div>
+           <i class="fa-solid fa-chevron-up fa-3x" style="margin-top:-25px; font-size:80px;"></i>
+           <br><br><h1><b class="text-light text-center">95%</b></h1>
+           <img src="image/note.webp" alt="" width="50px" class="mt-5">
+           <p class="mt-5 text-light text-light text-center fs-5 px-3">Average SAT score out of 1600 for Class of 2024</p>
+          <div class="border bg-light m-auto" style="width:80%; height:3px;"></div>
+        
+        </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="p02 size text-center" style="background:white;">
+           <br><div class="border bg-dark m-auto" style="width:80%; height:3px;"></div>
+           <i class="fa-solid fa-chevron-up fa-3x" style="margin-top:-25px; font-size:80px;"></i>
+           <br><br><h1><b class="text-dark text-center">1240</b></h1>
+           <img src="image/note1.png" alt="" width="50px" class="mt-5">
+           <p class="mt-5 text-light text-dark text-center fs-5 px-3">Average SAT score out of 1600 for Class of 2024</p>
+          <div class="border bg-dark m-auto" style="width:80%; height:3px;"></div>
+        
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="p02 size text-center" style="background:#c23616;">
+           <br><div class="border bg-light m-auto" style="width:80%; height:3px;"></div>
+           <i class="fa-solid fa-chevron-up fa-3x text-light" style="margin-top:-25px; font-size:80px;"></i>
+           <br><br><h1><b class="text-light text-center">65%</b></h1>
+           <i class="fa-solid fa-graduation-cap fa-3x mt-5 text-light"></i>
+           <p class="mt-5 text-light text-light text-center fs-5 px-3">Glory School students were admitted to a top 25 school*</p>
+          <div class="border bg-light m-auto" style="width:80%; height:3px;"></div>
+           <div>
+           </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-color container-fluid">
+    <h1>background</h1>
+<div class="bg-color2">
+    <h1>background2</h1>
+</div>
+</div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
